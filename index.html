@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>سایت گلچین</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <style>
         body {
             background: linear-gradient(135deg, #4CAF50, #2E7D32);
@@ -21,6 +22,9 @@
             text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
         }
         .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             background: rgba(255, 255, 255, 0.8);
             color: #2d572c;
             padding: 15px 30px;
@@ -32,17 +36,19 @@
             transition: all 0.3s ease-in-out;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
             backdrop-filter: blur(10px);
+            width: 200px;
+        }
+        .btn i {
+            margin-left: 10px;
+            font-size: 24px;
         }
         .btn:hover {
-            background: #2d572c;
-            color: white;
             transform: scale(1.1);
         }
-    </style>
-</head>
-<body>
-    <h1>فروشگاه میوه و سبزی گلچین</h1>
-    <a class="btn" href="https://t.me/fruits_and_vegetables_golchin" target="_blank">تلگرام</a>
-    <a class="btn" href="https://instagram.com/YOUR_INSTAGRAM" target="_blank">اینستاگرام</a>
-</body>
-</html>
+        .telegram {
+            background: #0088cc;
+            color: white;
+        }
+        .telegram:hover {
+            background: #0077b5;
+       
